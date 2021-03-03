@@ -1,0 +1,39 @@
+// Example program
+#include <iostream>
+#include <string>
+#include <vector>
+
+using namespace std
+
+int collatz(n > 0)
+{
+    if(n == 1)
+    {
+        cout << "n = 1" << endl;
+        cout << "Magique!" << endl;
+        return 0;
+    }
+    else if( n % 2 == 0)
+    {
+        n = n/2;
+        collatz n;
+    }
+    else{
+        n = 3n + 1;
+        collatz n;
+    }
+}
+
+void renduMonnaie (...)
+{
+...
+}
+
+int main()
+{
+  cout << "Hello, " << name << "!\n";
+  cin >> "" >> endl;
+  cout << "MONNAIE :" << end;
+  double renduMonaie [15] = {0.01,0.02,0.05,0.10,0.20,0.50,1.00,2.00,5.00,10.00,20.00,50.00,100.00,200.00,500.00};
+  cin >> "" >> n >> endl;
+}
